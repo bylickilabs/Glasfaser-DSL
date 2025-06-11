@@ -83,8 +83,9 @@ Einheit: bit/s
 
 # Äquivalentes Modell zur Glasfaser: Hydrauliksystem
 
-| Glasfasertechnik       | Hydraulisches Modell         | Beschreibung |
-|------------------------|------------------------------|--------------|
+|     Glasfasertechnik   |      Hydraulisches Modell    |         Beschreibung          |
+|           :---         |              :---:           |             :---:             |
+|                        |                              |                               |
 | Lichtimpuls            | Druckstoß in Rohrleitung     | Jeder Impuls entspricht einem gezielten Stoß |
 | Bandbreite             | Rohrdurchmesser/Anzahl       | Größere Rohre = mehr Daten gleichzeitig |
 | Dämpfung               | Reibungsverluste im Rohr     | Energieverlust je Strecke |
@@ -168,7 +169,8 @@ Einheit: bit/s
 ## 🔎 Vergleichstechnologien (Zusammenfassung)
 
 | Begriff         | DSL (VDSL2 / ADSL)                        | Glasfaser (FTTH)                     |
-|----------------|-------------------------------------------|--------------------------------------|
+|           :---         |              :---:           |             :---:             |
+|                        |                              |                               |
 | Übertragungsweg| Kupfer (elektrisch)                        | Glasfaser (optisch)                  |
 | Modulation     | Elektrische Signale (Modem)                | Lichtsignale (ONT, SFP-Modul)        |
 | Bandbreite     | max. 250 Mbit/s                            | bis zu 10 Gbit/s                     |
