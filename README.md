@@ -237,7 +237,8 @@ Einheit: bit/s
 ## 🧩 Komponentenvergleich: DSL vs. FTTH
 
 | Funktion                        | DSL (z. B. VDSL2)                  | Glasfaser (FTTH)                        |
-|---------------------------------|-----------------------------------|-----------------------------------------|
+|           :---         |              :---:           |             :---:             |
+|                        |                              |                               |
 | Signalumwandlung (Modem)        | DSL-Modem                         | **ONT (Optical Network Terminal)**      |
 | Router (NAT, DHCP, WLAN, etc.)  | DSL-Router                        | Router hinter ONT                       |
 | Verbindung zum Internet         | RJ11 / TAE → DSL-Signal           | SC/APC Glasfaser → ONT → RJ45 (WAN)     |
@@ -278,7 +279,8 @@ Einheit: bit/s
 Einige Router-Modelle kombinieren Modem und Router für Glasfaseranschlüsse:
 
 | Modell                      | Integriertes ONT | Bemerkung                             |
-|----------------------------|------------------|----------------------------------------|
+|           :---         |              :---:           |             :---:             |
+|                        |                              |                               |
 | AVM Fritz!Box 5590 Fiber   | ✅ Ja            | Direktanschluss an Glasfaser möglich   |
 | AVM Fritz!Box 5530 Fiber   | ✅ Ja            | Kompakt, SFP-Modul wechselbar          |
 | Ubiquiti UDM + SFP-Modul   | ❌ Nein          | ONT erforderlich oder SFP-Erweiterung  |
@@ -308,7 +310,8 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 ## 📎 Zusammenfassung
 
 | Frage                                     | Antwort                                |
-|------------------------------------------|----------------------------------------|
+|           :---         |              :---:           |             :---:             |
+|                        |                              |                               |
 | Ersetzt ONT den Router?                  | ❌ Nein                                 |
 | Was ersetzt das ONT?                     | ✅ Das Modem (optisch ↔ elektrisch)     |
 | Brauche ich noch einen Router?           | ✅ Ja (für WLAN, DHCP, Firewall etc.)   |
