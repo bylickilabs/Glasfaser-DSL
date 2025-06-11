@@ -1,5 +1,5 @@
-| Glasfaser-DSL |
-|---|
+### Glasfaser-DSL
+
 
 > Strukturierte Gegenüberstellung der Glasfaserverbindung im Vergleich zu herkömmlichen DSL-Verbindungen.
   - Inklusive einer Statistik zu Up-/Downstream, den Vor- und Nachteilen, sowie einer Erklärung der Hardware-Komponenten.
@@ -285,8 +285,8 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 
 ## ✅ Empfehlung
 
-|Wenn verfügbar, sollte **FTTH** jeder Form von DSL-Technologie vorgezogen werden|
-|---|
+> Wenn verfügbar, sollte **FTTH** jeder Form von DSL-Technologie vorgezogen werden
+
 - vor allem bei datenintensiven Anwendungen
   - (Cloud, Streaming, Home-Office, Smart Home).
 
