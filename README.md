@@ -288,7 +288,7 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 |Wenn verfügbar, sollte **FTTH** jeder Form von DSL-Technologie vorgezogen werden| 
 |---|
 
-– vor allem bei datenintensiven Anwendungen|
+- vor allem bei datenintensiven Anwendungen|
 
   - (Cloud, Streaming, Home-Office, Smart Home).
     - *Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
