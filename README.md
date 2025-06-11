@@ -1,7 +1,7 @@
 | Glasfaser-DSL |
 |---|
 
-> Hier ist eine strukturierte Gegenüberstellung der Glasfaserverbindung im Vergleich zu herkömmlichen DSL-Verbindungen.
+> Strukturierte Gegenüberstellung der Glasfaserverbindung im Vergleich zu herkömmlichen DSL-Verbindungen.
   - Inklusive einer Statistik zu Up-/Downstream, den Vor- und Nachteilen, sowie einer Erklärung der Hardware-Komponenten.
     - Insbesondere Modulator/Demodulator (Transceiver) und deren Unterschiede zu Standard-DSL-Routern.
 
