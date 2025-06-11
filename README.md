@@ -266,5 +266,21 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 
 <br>
 
-*Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
+## 📈 Fazit
+
+- **FTTH ist 4x schneller im Download als VDSL2**
+- **FTTH ist bis zu 500x schneller im Upload als ADSL2+**
+- **FTTH erreicht symmetrische Geschwindigkeiten**, während DSL immer asymmetrisch ist
+- **FTTH skaliert in Zukunft auf 10 Gbit/s und mehr**, DSL ist technologisch ausgereizt
+
+<br>
+
+---
+
+<br>
+
+## ✅ Empfehlung
+
+> Wenn verfügbar, sollte **FTTH** jeder Form von DSL-Technologie vorgezogen werden – vor allem bei datenintensiven Anwendungen (Cloud, Streaming, Home-Office, Smart Home).
+  - *Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
 
