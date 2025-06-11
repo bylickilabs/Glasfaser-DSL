@@ -5,6 +5,8 @@
   - Inklusive einer Statistik zu Up-/Downstream, den Vor- und Nachteilen, sowie einer Erklärung der Hardware-Komponenten.
     - Insbesondere Modulator/Demodulator (Transceiver) und deren Unterschiede zu Standard-DSL-Routern.
 
+---
+
 # Vergleich: Glasfaser (FTTH) vs. DSL (VDSL2 / ADSL2+)
 
 ## 📊 Statistikübersicht (2025)
