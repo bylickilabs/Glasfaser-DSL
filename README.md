@@ -1,5 +1,7 @@
 ### Glasfaser-DSL
 
+![ftth-dsl](https://github.com/user-attachments/assets/fe24155f-dfdc-4269-b442-7f8a706f3219)
+
 
 > Strukturierte Gegenüberstellung der Glasfaserverbindung im Vergleich zu herkömmlichen DSL-Verbindungen.
   - Inklusive einer Statistik zu Up-/Downstream, den Vor- und Nachteilen, sowie einer Erklärung der Hardware-Komponenten.
