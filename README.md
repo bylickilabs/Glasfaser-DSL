@@ -290,5 +290,6 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 - vor allem bei datenintensiven Anwendungen
   - (Cloud, Streaming, Home-Office, Smart Home).
 
-- *Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
+<br>
 
+- *Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
