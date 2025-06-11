@@ -79,6 +79,17 @@ Typisch: v ≈ 2.07 × 10⁸ m/s bei n ≈ 1,45
 R = 1 / (2π · Δt)  
 Einheit: bit/s
 
+<br>
+
+---
+
+<br>
+
+🧩 Vorteile des Modells
+Neutral, ohne plakative Metaphern
+Technisch übertragbar auf viele reale Prozesse
+Lässt sich problemlos erweitern (Ventile = Switches, Druckverstärker = Repeater, etc.)
+Ermöglicht ingenieurtechnisches Denken – z. B. bei der Betrachtung von Verlusten, Laufzeit, Synchronisation
 > Dieses Modell eignet sich besonders zur technischen Veranschaulichung komplexer Signalübertragung ohne metaphorische Überladung.
 
 # Äquivalentes Modell zur Glasfaser: Hydrauliksystem
