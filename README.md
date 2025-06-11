@@ -57,42 +57,6 @@
 ### **Supervectoring**
 > Erweiterung von VDSL2, um elektromagnetische Störungen besser zu kompensieren. Steigert Maximalgeschwindigkeit auf 250 Mbit/s Down.
 
-<br>
-
----
-
-<br>
-
-## 📶 Signaltechnik & Übertragungswege
-
-### **Latenz (Ping)**
-> Zeitverzögerung in Millisekunden (ms) zwischen Anforderung und Antwort eines Netzwerks. Geringe Latenz ist wichtig für Echtzeitanwendungen.
-
-### **Bandbreite**
-> Maximale Datenmenge, die pro Sekunde übertragen werden kann – gemessen in Mbit/s oder Gbit/s.
-
-### **Upstream / Downstream**
-> **Downstream** = Datenempfang (z. B. Streaming, Webseiten),  
-> **Upstream** = Datensendung (z. B. Uploads, Cloud-Backups).
-
-<br>
-
----
-
-<br>
-
-## 💡 Glasfaser-Komponenten
-
-### **ONT (Optical Network Terminal)**
-> Wandelt optische Signale in elektrische Signale um. Wird direkt am Glasfaseranschluss installiert und ersetzt das klassische DSL-Modem.
-
-### **SFP-Modul (Small Form-factor Pluggable)**
-> Steckbarer Transceiver für Glasfaserverbindungen. Ermöglicht Modulation/Demodulation auf Netzwerkgeräten (z. B. Router, Switches).
-
-### **SC/APC, LC/UPC**
-> Steckertypen für Glasfaserverbindungen:
-- **SC/APC** = grün, abgeschrägt (geringe Reflexion)
-- **LC/UPC** = blau, poliert (hohe Präzision)
 
 <br>
 
@@ -158,6 +122,143 @@
 | Upload-Speed   | meist deutlich geringer als Download       | symmetrisch möglich                  |
 | Entfernungseinfluss | sehr hoch                             | irrelevant                           |
 | Zukunftssicherheit | begrenzt                               | sehr hoch                            |
+
+
+<br>
+
+---
+
+<br>
+
+## 📶 Signaltechnik & Übertragungswege
+
+### **Latenz (Ping)**
+> Zeitverzögerung in Millisekunden (ms) zwischen Anforderung und Antwort eines Netzwerks. Geringe Latenz ist wichtig für Echtzeitanwendungen.
+
+### **Bandbreite**
+> Maximale Datenmenge, die pro Sekunde übertragen werden kann – gemessen in Mbit/s oder Gbit/s.
+
+### **Upstream / Downstream**
+> **Downstream** = Datenempfang (z. B. Streaming, Webseiten),  
+> **Upstream** = Datensendung (z. B. Uploads, Cloud-Backups).
+
+<br>
+
+---
+
+<br>
+
+## 💡 Glasfaser-Komponenten
+
+### **ONT (Optical Network Terminal)**
+> Wandelt optische Signale in elektrische Signale um. Wird direkt am Glasfaseranschluss installiert und ersetzt das klassische DSL-Modem.
+
+### **SFP-Modul (Small Form-factor Pluggable)**
+> Steckbarer Transceiver für Glasfaserverbindungen. Ermöglicht Modulation/Demodulation auf Netzwerkgeräten (z. B. Router, Switches).
+
+### **SC/APC, LC/UPC**
+> Steckertypen für Glasfaserverbindungen:
+- **SC/APC** = grün, abgeschrägt (geringe Reflexion)
+- **LC/UPC** = blau, poliert (hohe Präzision)
+
+<br>
+
+---
+
+<br>
+
+# 🔧 Ersetzt ein ONT den DSL-Router? – Technische Erklärung
+
+## 📌 Kurzantwort
+
+**Nein**, ein **ONT (Optical Network Terminal)** ersetzt **nicht den DSL-Router**, sondern **nur das Modem**. Ein zusätzlicher **Router** ist weiterhin erforderlich – außer du nutzt ein Kombigerät mit integriertem ONT.
+
+<br>
+
+---
+
+<br>
+
+## 🧩 Komponentenvergleich: DSL vs. FTTH
+
+| Funktion                        | DSL (z. B. VDSL2)                  | Glasfaser (FTTH)                        |
+|---------------------------------|-----------------------------------|-----------------------------------------|
+| Signalumwandlung (Modem)        | DSL-Modem                         | **ONT (Optical Network Terminal)**      |
+| Router (NAT, DHCP, WLAN, etc.)  | DSL-Router                        | Router hinter ONT                       |
+| Verbindung zum Internet         | RJ11 / TAE → DSL-Signal           | SC/APC Glasfaser → ONT → RJ45 (WAN)     |
+
+<br>
+
+---
+
+<br>
+
+## ⚙️ Was macht das ONT?
+
+- Wandelt **optische Lichtsignale** der Glasfaser in **elektrische Ethernet-Signale**.
+- Funktioniert als **Modulator/Demodulator** – vergleichbar mit einem DSL-Modem.
+- **Keine WLAN-Funktion, keine DHCP-Funktion** – daher **kein vollständiger Router**.
+
+<br>
+
+---
+
+<br>
+
+## 🖧 Erforderliches Setup bei Glasfaser
+
+1. **Glasfaserkabel (z. B. SC/APC)**
+2. → **ONT (vom Anbieter bereitgestellt)**
+3. → **Ethernet-Kabel (RJ45)**
+4. → **Router mit WAN-Port**
+
+<br>
+
+---
+
+<br>
+
+## ✅ Alternativen: Router mit integriertem ONT
+
+Einige Router-Modelle kombinieren Modem und Router für Glasfaseranschlüsse:
+
+| Modell                      | Integriertes ONT | Bemerkung                             |
+|----------------------------|------------------|----------------------------------------|
+| AVM Fritz!Box 5590 Fiber   | ✅ Ja            | Direktanschluss an Glasfaser möglich   |
+| AVM Fritz!Box 5530 Fiber   | ✅ Ja            | Kompakt, SFP-Modul wechselbar          |
+| Ubiquiti UDM + SFP-Modul   | ❌ Nein          | ONT erforderlich oder SFP-Erweiterung  |
+
+<br>
+
+---
+
+<br>
+
+## 🧠 Sonderfall: SFP-Modul als ONT-Ersatz
+
+Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), kannst du ein **passendes SFP-Transceivermodul** einsetzen:
+
+- Dadurch wird **der separate ONT überflüssig**
+- Du brauchst:
+  - Kompatibles **SFP GPON-Modul**
+  - Konfiguration über CLI / Webinterface
+  - Genehmigung des Providers (manche Anbieter schreiben ein bestimmtes ONT vor)
+
+<br>
+
+---
+
+<br>
+
+## 📎 Zusammenfassung
+
+| Frage                                     | Antwort                                |
+|------------------------------------------|----------------------------------------|
+| Ersetzt ONT den Router?                  | ❌ Nein                                 |
+| Was ersetzt das ONT?                     | ✅ Das Modem (optisch ↔ elektrisch)     |
+| Brauche ich noch einen Router?           | ✅ Ja (für WLAN, DHCP, Firewall etc.)   |
+| Gibt es Router mit integriertem ONT?     | ✅ Ja (z. B. Fritz!Box 5590 Fiber)      |
+| Kann ich SFP statt ONT nutzen?           | ✅ Ja, bei passender Hardware           |
 
 <br>
 
