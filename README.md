@@ -19,7 +19,11 @@
 | Dämpfung                      | Gering (optisch)               | Mittel                        | Hoch                          |
 | Zukunftssicherheit            | Sehr hoch                      | Mittel                        | Gering                        |
 
+<br>
+
 ---
+
+<br>
 
 # 📘 Glossar: Glasfaser (FTTH) vs. DSL – Fachbegriffe & Definitionen
 
@@ -34,7 +38,11 @@
 ### **DSL (Digital Subscriber Line)**
 > Oberbegriff für Technologien, die Daten über bestehende Kupfertelefonleitungen übertragen. Varianten: ADSL, ADSL2+, VDSL, VDSL2.
 
+<br>
+
 ---
+
+<br>
 
 ## 📡 DSL-Technologien im Detail
 
@@ -47,7 +55,11 @@
 ### **Supervectoring**
 > Erweiterung von VDSL2, um elektromagnetische Störungen besser zu kompensieren. Steigert Maximalgeschwindigkeit auf 250 Mbit/s Down.
 
+<br>
+
 ---
+
+<br>
 
 ## 📶 Signaltechnik & Übertragungswege
 
@@ -61,7 +73,11 @@
 > **Downstream** = Datenempfang (z. B. Streaming, Webseiten),  
 > **Upstream** = Datensendung (z. B. Uploads, Cloud-Backups).
 
+<br>
+
 ---
+
+<br>
 
 ## 💡 Glasfaser-Komponenten
 
@@ -76,7 +92,11 @@
 - **SC/APC** = grün, abgeschrägt (geringe Reflexion)
 - **LC/UPC** = blau, poliert (hohe Präzision)
 
+<br>
+
 ---
+
+<br>
 
 ## 🧰 DSL-Komponenten
 
@@ -84,102 +104,64 @@
 > Anschlussdose für analoge/ISDN-Telefone und DSL-Signale.
 
 ### **Splitter**
-> Trennt DSL- und Telefonsignal bei analogen
+> Trennt DSL- und Telefonsignal bei analogen Anschlüssen (heute meist integriert im Router).
+
+### **DSL-Modem**
+> Wandelt digitale Signale für Kupferleitungen, meist integriert im Router.
+
+<br>
 
 ---
 
-## ✅ Vorteile von Glasfaser
+<br>
 
-- Extrem hohe Bandbreiten (Download und Upload).
-- Geringe Latenz → ideal für Echtzeitdienste wie Gaming, VoIP, Cloud.
-- Zukunftssicher & skalierbar (z. B. für Smart Homes, Industrie 4.0).
-- Unempfindlich gegen elektromagnetische Störungen.
-- Symmetrische Geschwindigkeiten möglich.
-- Geringer Energieverbrauch.
+## 🌐 Router-Technologie
 
----
+### **Router**
+> Verbindet interne Netzwerke mit dem Internet. Viele moderne Router bieten zusätzlich WLAN, Firewall, NAS-Funktionen etc.
 
-## ❌ Nachteile von Glasfaser
+### **Mesh-System**
+> Netzwerk aus mehreren Router- oder Repeater-Knoten zur besseren WLAN-Abdeckung in großen Gebäuden.
 
-- Hohe Ausbaukosten & aufwendige Verlegung.
-- Nicht überall verfügbar (v. a. im ländlichen Raum).
-- Neue Hardware erforderlich (ONT, kompatibler Router).
-- Höhere Anschluss- und Installationskosten.
+<br>
 
 ---
 
-## ✅ Vorteile von DSL
+<br>
 
-- Weit verbreitet & schnell verfügbar.
-- Nutzung bestehender Kupferleitungen.
-- Günstigere Tarife möglich.
-- Kompatibel mit gängigen Standardroutern.
+## ⚙️ Weitere Begriffe
 
----
+### **Dämpfung**
+> Signalverlust über eine Leitung. Bei Kupferleitungen stark ausgeprägt – bei Glasfaser minimal.
 
-## ❌ Nachteile von DSL
+### **Backbone**
+> Hochleistungsnetzwerk, das große Mengen Daten zwischen Knotenpunkten transportiert (Rückgrat des Internets).
 
-- Begrenzte Bandbreite, v. a. beim Upload.
-- Latenz und Stabilität schwanken je nach Leitung.
-- Kupfer ist störanfälliger als Glasfaser.
-- Keine echte Zukunftsfähigkeit für datenintensive Anwendungen.
+### **Verteilerkasten (KVz)**
+> Knotenpunkt zwischen Hausanschluss und zentraler Vermittlungsstelle. In FTTC-Szenarien endet hier das Glasfaserkabel.
 
----
-
-## 🔧 Hardware-Vergleich: Glasfaser vs. DSL
-
-| Komponente                     | Glasfaser (FTTH)                        | DSL (VDSL2 / ADSL2+)                |
-|-------------------------------|----------------------------------------|-------------------------------------|
-| Modulation                    | Optisch (Lichtsignal)                  | Elektrisch (über Kupferadern)       |
-| Hauptgerät                    | ONT (Optical Network Terminal)         | DSL-Modem / Router mit Splitter     |
-| SFP-Modul (Transceiver)       | Ja, optional bei Profi-Geräten         | Nicht erforderlich                  |
-| Verkabelung                   | SC/APC → ONT → RJ45 (Router)           | TAE → Splitter → DSL-Modem          |
-| Empfohlene Router             | Fritz!Box 5590 Fiber, Ubiquiti UXG     | Fritz!Box 7590, Telekom Speedport   |
+<br>
 
 ---
 
-## 📈 Diagramme (Auswertung)
+<br>
 
-### 1. Übertragungsgeschwindigkeiten
+## 🔎 Vergleichstechnologien (Zusammenfassung)
 
-- **Download (Mbit/s):**
-  - Glasfaser: 1.000
-  - VDSL2: 250
-  - ADSL2+: 16
+| Begriff         | DSL (VDSL2 / ADSL)                        | Glasfaser (FTTH)                     |
+|----------------|-------------------------------------------|--------------------------------------|
+| Übertragungsweg| Kupfer (elektrisch)                        | Glasfaser (optisch)                  |
+| Modulation     | Elektrische Signale (Modem)                | Lichtsignale (ONT, SFP-Modul)        |
+| Bandbreite     | max. 250 Mbit/s                            | bis zu 10 Gbit/s                     |
+| Upload-Speed   | meist deutlich geringer als Download       | symmetrisch möglich                  |
+| Entfernungseinfluss | sehr hoch                             | irrelevant                           |
+| Zukunftssicherheit | begrenzt                               | sehr hoch                            |
 
-- **Upload (Mbit/s):**
-  - Glasfaser: 500
-  - VDSL2: 40
-  - ADSL2+: 1
-
-### 2. Latenzvergleich
-
-- **Latenz (ms):**
-  - Glasfaser: 5
-  - VDSL2: 25
-  - ADSL2+: 50
-
-(Diese Daten lassen sich als Balkendiagramme darstellen, z. B. für Präsentationen mit Matplotlib oder Chart.js)
+<br>
 
 ---
 
-## 📌 Empfehlungen
+<br>
 
-- **Für moderne Netzwerke & Unternehmen:** Glasfaser ist alternativlos.
-- **Für ländliche Übergangslösungen:** DSL kann ausreichend sein, sofern kein Glasfaser verfügbar ist.
-- **Langfristig:** Der Fokus sollte auf Glasfaserausbau liegen, da DSL keine nachhaltige Option mehr darstellt.
-
----
-
-## 🔄 Optional erweiterbare Diagramme (bei Bedarf)
-
-- Preisvergleich pro Mbit/s
-- Energieverbrauch pro Haushalt
-- Technologische Abdeckung in Deutschland
-- Verfügbarkeitsentwicklung (letzte 10 Jahre)
-- Schema Netzaufbau: Backbone → Verteiler → Hausanschluss
-
----
-
-*Erstellt am: 11.06.2025 – Datenstand basierend auf Marktanalysen, Netzbetreiberangaben und technischen Dokumentationen.*
+*Erstellt am: 11.06.2025 – Datenstand basierend aus Wissensstand*
 
