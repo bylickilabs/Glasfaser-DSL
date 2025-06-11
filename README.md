@@ -310,7 +310,7 @@ Wenn dein Router einen **SFP-Port** besitzt (z. B. bei MikroTik, Ubiquiti), ka
 ## 📎 Zusammenfassung
 
 | Frage                                     | Antwort                                |
-|           :---         |              :---:           |
+|           :---         |              ---:           |
 |                        |                              |
 | Ersetzt ONT den Router?                  | ❌ Nein                                 |
 | Was ersetzt das ONT?                     | ✅ Das Modem (optisch ↔ elektrisch)     |
