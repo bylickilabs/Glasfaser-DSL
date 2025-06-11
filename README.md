@@ -16,8 +16,9 @@
 
 ## 📊 Statistikübersicht (2025)
 
-| Merkmal                        | Glasfaser (FTTH)               | VDSL2                         | ADSL2+                       |
-|-------------------------------|--------------------------------|-------------------------------|-------------------------------|
+| Merkmal                       | Glasfaser (FTTH)               | VDSL2                         | ADSL2+                       |
+|             :---             |              :---:             |             :---:             |             :---:            |
+|                               |                                |                               |                              |
 | Download-Geschwindigkeit      | bis zu 1.000 Mbit/s (theoretisch 10 Gbit/s) | bis 250 Mbit/s                | ca. 16 Mbit/s    |
 | Upload-Geschwindigkeit        | bis zu 500–1.000 Mbit/s        | ca. 40 Mbit/s                 | ca. 1 Mbit/s                  |
 | Latenz (Ping)                 | 1 – 5 ms                       | 20 – 30 ms                    | 40 – 50 ms                    |
