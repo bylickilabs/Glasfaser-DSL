@@ -51,6 +51,53 @@
 
 <br>
 
+# Glasfaser – Mathematische Grundlagen
+
+## 1. Dämpfung
+**Formel:**
+α = (10 / L) · log₁₀(Pₑᵢₙ / Pₐᵤₛ)  
+Einheit: dB/km
+
+## 2. Bandbreite-Längen-Produkt
+**Formel:**
+BW · L = konstant  
+Einheit: MHz·km
+
+## 3. Chromatische Dispersion
+**Formel:**
+D = Δt / (L · Δλ)  
+Einheit: ps/(nm·km)
+
+## 4. Lichtgeschwindigkeit in Glasfaser
+**Formel:**
+v = c / n  
+Typisch: v ≈ 2.07 × 10⁸ m/s bei n ≈ 1,45
+
+## 5. Datenrate
+**Formel:**
+R = 1 / (2π · Δt)  
+Einheit: bit/s
+
+> Dieses Modell eignet sich besonders zur technischen Veranschaulichung komplexer Signalübertragung ohne metaphorische Überladung.
+
+# Äquivalentes Modell zur Glasfaser: Hydrauliksystem
+
+| Glasfasertechnik       | Hydraulisches Modell         | Beschreibung |
+|------------------------|------------------------------|--------------|
+| Lichtimpuls            | Druckstoß in Rohrleitung     | Jeder Impuls entspricht einem gezielten Stoß |
+| Bandbreite             | Rohrdurchmesser/Anzahl       | Größere Rohre = mehr Daten gleichzeitig |
+| Dämpfung               | Reibungsverluste im Rohr     | Energieverlust je Strecke |
+| Dispersion             | Strömungswirbel & Zeitversatz| Unterschiedliche Impulse treffen versetzt ein |
+| Lichtgeschwindigkeit   | Maximale Strömungsgeschwindigkeit | Schneller Transport durch das Medium |
+| Multiplexing           | Parallelströmungen            | Mehrere Datenströme gleichzeitig (verschieden farbig/frequentiert) |
+| Totalreflexion im Kern | Rohrwandführung               | Licht wird wie Wasser im Rohr gehalten und reflektiert |
+
+<br>
+
+---
+
+<br>
+
 ## 📡 DSL-Technologien im Detail
 
 ### **ADSL / ADSL2+ (Asymmetric DSL)**
